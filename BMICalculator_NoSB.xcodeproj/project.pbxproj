@@ -8,22 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		0498B30E27BC5BDF00B1FCD7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0498B30D27BC5BDF00B1FCD7 /* AppDelegate.swift */; };
-		0498B31027BC5BDF00B1FCD7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0498B30F27BC5BDF00B1FCD7 /* SceneDelegate.swift */; };
-		0498B31227BC5BDF00B1FCD7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0498B31127BC5BDF00B1FCD7 /* ViewController.swift */; };
-		0498B31527BC5BDF00B1FCD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0498B31327BC5BDF00B1FCD7 /* Main.storyboard */; };
 		0498B31727BC5BE100B1FCD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0498B31627BC5BE100B1FCD7 /* Assets.xcassets */; };
 		0498B31A27BC5BE100B1FCD7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0498B31827BC5BE100B1FCD7 /* LaunchScreen.storyboard */; };
+		0498B32627BC602200B1FCD7 /* BMICoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0498B32527BC602200B1FCD7 /* BMICoordinator.swift */; };
+		0498B32827BC609B00B1FCD7 /* BMIFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0498B32727BC609B00B1FCD7 /* BMIFactory.swift */; };
+		0498B32A27BC613700B1FCD7 /* BMI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0498B32927BC613700B1FCD7 /* BMI.swift */; };
+		0498B32C27BC616200B1FCD7 /* BMIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0498B32B27BC616200B1FCD7 /* BMIManager.swift */; };
+		0498B32F27BC63B900B1FCD7 /* BMIUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0498B32E27BC63B900B1FCD7 /* BMIUIView.swift */; };
+		0498B33127BC63CA00B1FCD7 /* BMIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0498B33027BC63CA00B1FCD7 /* BMIViewController.swift */; };
+		0498B33427BD8FF800B1FCD7 /* BMIProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0498B33327BD8FF800B1FCD7 /* BMIProtocol.swift */; };
+		0498B33827BD97A200B1FCD7 /* ResultUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0498B33727BD97A200B1FCD7 /* ResultUIView.swift */; };
+		0498B33A27BD97B700B1FCD7 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0498B33927BD97B700B1FCD7 /* ResultViewController.swift */; };
+		0498B33D27BDB4EC00B1FCD7 /* GlobalConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0498B33C27BDB4EC00B1FCD7 /* GlobalConstants.swift */; };
+		0498B34027BDBCFE00B1FCD7 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0498B33F27BDBCFE00B1FCD7 /* UIColor+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0498B30A27BC5BDF00B1FCD7 /* BMICalculator_NoSB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BMICalculator_NoSB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0498B30D27BC5BDF00B1FCD7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0498B30F27BC5BDF00B1FCD7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0498B31127BC5BDF00B1FCD7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0498B31427BC5BDF00B1FCD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0498B31627BC5BE100B1FCD7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0498B31927BC5BE100B1FCD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0498B31B27BC5BE100B1FCD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0498B32527BC602200B1FCD7 /* BMICoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMICoordinator.swift; sourceTree = "<group>"; };
+		0498B32727BC609B00B1FCD7 /* BMIFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMIFactory.swift; sourceTree = "<group>"; };
+		0498B32927BC613700B1FCD7 /* BMI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMI.swift; sourceTree = "<group>"; };
+		0498B32B27BC616200B1FCD7 /* BMIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMIManager.swift; sourceTree = "<group>"; };
+		0498B32E27BC63B900B1FCD7 /* BMIUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMIUIView.swift; sourceTree = "<group>"; };
+		0498B33027BC63CA00B1FCD7 /* BMIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMIViewController.swift; sourceTree = "<group>"; };
+		0498B33327BD8FF800B1FCD7 /* BMIProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMIProtocol.swift; sourceTree = "<group>"; };
+		0498B33727BD97A200B1FCD7 /* ResultUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultUIView.swift; sourceTree = "<group>"; };
+		0498B33927BD97B700B1FCD7 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		0498B33C27BDB4EC00B1FCD7 /* GlobalConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalConstants.swift; sourceTree = "<group>"; };
+		0498B33F27BDBCFE00B1FCD7 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +72,95 @@
 		0498B30C27BC5BDF00B1FCD7 /* BMICalculator_NoSB */ = {
 			isa = PBXGroup;
 			children = (
+				0498B33E27BDBCEB00B1FCD7 /* Common */,
+				0498B33227BD8F2900B1FCD7 /* Protocol */,
+				0498B32D27BC639300B1FCD7 /* View */,
+				0498B32427BC5CB700B1FCD7 /* Utils */,
+				0498B32327BC5CA900B1FCD7 /* Model */,
+				0498B32227BC5CA000B1FCD7 /* Factory */,
+				0498B32127BC5C9600B1FCD7 /* Coordinator */,
 				0498B30D27BC5BDF00B1FCD7 /* AppDelegate.swift */,
-				0498B30F27BC5BDF00B1FCD7 /* SceneDelegate.swift */,
-				0498B31127BC5BDF00B1FCD7 /* ViewController.swift */,
-				0498B31327BC5BDF00B1FCD7 /* Main.storyboard */,
 				0498B31627BC5BE100B1FCD7 /* Assets.xcassets */,
 				0498B31827BC5BE100B1FCD7 /* LaunchScreen.storyboard */,
 				0498B31B27BC5BE100B1FCD7 /* Info.plist */,
 			);
 			path = BMICalculator_NoSB;
+			sourceTree = "<group>";
+		};
+		0498B32127BC5C9600B1FCD7 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				0498B32527BC602200B1FCD7 /* BMICoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		0498B32227BC5CA000B1FCD7 /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				0498B32727BC609B00B1FCD7 /* BMIFactory.swift */,
+			);
+			path = Factory;
+			sourceTree = "<group>";
+		};
+		0498B32327BC5CA900B1FCD7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0498B32927BC613700B1FCD7 /* BMI.swift */,
+				0498B32B27BC616200B1FCD7 /* BMIManager.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0498B32427BC5CB700B1FCD7 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				0498B33C27BDB4EC00B1FCD7 /* GlobalConstants.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		0498B32D27BC639300B1FCD7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0498B33627BD978200B1FCD7 /* Result */,
+				0498B33527BD977B00B1FCD7 /* BMI */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0498B33227BD8F2900B1FCD7 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				0498B33327BD8FF800B1FCD7 /* BMIProtocol.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		0498B33527BD977B00B1FCD7 /* BMI */ = {
+			isa = PBXGroup;
+			children = (
+				0498B32E27BC63B900B1FCD7 /* BMIUIView.swift */,
+				0498B33027BC63CA00B1FCD7 /* BMIViewController.swift */,
+			);
+			path = BMI;
+			sourceTree = "<group>";
+		};
+		0498B33627BD978200B1FCD7 /* Result */ = {
+			isa = PBXGroup;
+			children = (
+				0498B33727BD97A200B1FCD7 /* ResultUIView.swift */,
+				0498B33927BD97B700B1FCD7 /* ResultViewController.swift */,
+			);
+			path = Result;
+			sourceTree = "<group>";
+		};
+		0498B33E27BDBCEB00B1FCD7 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				0498B33F27BDBCFE00B1FCD7 /* UIColor+Extension.swift */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +223,6 @@
 			files = (
 				0498B31A27BC5BE100B1FCD7 /* LaunchScreen.storyboard in Resources */,
 				0498B31727BC5BE100B1FCD7 /* Assets.xcassets in Resources */,
-				0498B31527BC5BDF00B1FCD7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +233,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0498B31227BC5BDF00B1FCD7 /* ViewController.swift in Sources */,
+				0498B32A27BC613700B1FCD7 /* BMI.swift in Sources */,
+				0498B33127BC63CA00B1FCD7 /* BMIViewController.swift in Sources */,
 				0498B30E27BC5BDF00B1FCD7 /* AppDelegate.swift in Sources */,
-				0498B31027BC5BDF00B1FCD7 /* SceneDelegate.swift in Sources */,
+				0498B34027BDBCFE00B1FCD7 /* UIColor+Extension.swift in Sources */,
+				0498B33827BD97A200B1FCD7 /* ResultUIView.swift in Sources */,
+				0498B32C27BC616200B1FCD7 /* BMIManager.swift in Sources */,
+				0498B33D27BDB4EC00B1FCD7 /* GlobalConstants.swift in Sources */,
+				0498B33A27BD97B700B1FCD7 /* ResultViewController.swift in Sources */,
+				0498B32F27BC63B900B1FCD7 /* BMIUIView.swift in Sources */,
+				0498B32827BC609B00B1FCD7 /* BMIFactory.swift in Sources */,
+				0498B33427BD8FF800B1FCD7 /* BMIProtocol.swift in Sources */,
+				0498B32627BC602200B1FCD7 /* BMICoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		0498B31327BC5BDF00B1FCD7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0498B31427BC5BDF00B1FCD7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0498B31827BC5BE100B1FCD7 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -294,7 +390,6 @@
 				INFOPLIST_FILE = BMICalculator_NoSB/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -322,7 +417,6 @@
 				INFOPLIST_FILE = BMICalculator_NoSB/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
